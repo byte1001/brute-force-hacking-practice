@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+const val = Math.floor(1000 + Math.random() * 9000);
+function bruteForce() {
+    if (document.getElementById('hackbox').value.toString() == val.toString()) { //val.toString()
+        document.body.style.background = 'lightgreen';
+        alert('Correct!');
+    }
+}
+function show() {
+    alert(val)
+}
+</script>
+<style>
+div.needstobecentered {
+  text-align: center;
+}
+</style>
+<title>Brute force hacking practice</title>
+</head>
+<body>
+<div class='needstobecentered'>
+<h1>Brute force hacking practice</h1>
+<input type='text' id='hackbox' placeholder='Enter password'></input>
+<input value='Enter' type='button' onclick='bruteForce();'></input>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<input value="Show number" type = 'button' onclick='show();'>
+</div>
+<script>
+document.body.style.background = 'red';
+</script>
+</body>
+</html>
